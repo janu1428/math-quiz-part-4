@@ -1,0 +1,58 @@
+<html>
+    <head>
+        
+        <title>guess the word</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+        </script> <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="mathquiz.js"></script>
+    </head>
+    <body style="background-image:url(image.jpeg);background-size: cover;">
+        
+        <h4 id="pl1"></h4> <span id="pl1_score"></span>
+        <br>
+        <h4 id="pl2"></h4> <span id="pl2_score"></span>
+        <center>
+       <div class="container">
+
+       
+        <h1 style="font-family:Georgia, 'Times New Roman', Times, serif ;color:powderblue;font-size: 60px"> Math Quiz</h2>
+        <h3 id="question" style="color:royalblue ;"></h3>
+        <h3 id="answer" style="color: royalblue;"></h3>
+
+        <br>
+        <br>
+        <label style="color: aliceblue;">Send your word</label>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <h3 style="color: aliceblue;">Multiplication</h3>
+        
+        <input type="text" id="input1" class="form-control" placeholder="1st Number" style="width: 40%;"></input>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+        <input type="text" id="input2" class="form-control" placeholder="2nd Number" style="width: 40%;"></input>
+        <br>
+        <br>
+        <br>
+        <div class="col-lg-6" style="float:none;margin:auto;" id="output"></div> 
+        <br>
+        <br>
+        <br>
+        <button onclick="send()"  style="width: 30%;color: aliceblue;background-color:royalblue ;">Send</button>
+
+
+       </div>
+    </center>
+    </body>
+</html>
